@@ -142,14 +142,3 @@ void PrintErrMsg(DWORD err)
         NULL);
     _tprintf(_T("Error description: %s\n"), errMsgBuff);
 }
-/*
-DWORD WINAPI FormatMessage(
-  _In_      DWORD dwFlags,
-  _In_opt_  LPCVOID lpSource,
-  _In_      DWORD dwMessageId,
-  _In_      DWORD dwLanguageId,
-  _Out_     LPTSTR lpBuffer,
-  _In_      DWORD nSize,
-  _In_opt_  va_list *Arguments
-);
-*/
