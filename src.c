@@ -1,5 +1,4 @@
 /*
-utility created by v-kail to repro SE bug E14: 712895
 this utility is used to change the short name (8.3 filename) of file selected.
 usage:
     set8dot3fn <targetfile> <8dot3name>
